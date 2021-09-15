@@ -2,6 +2,12 @@
 .Rhistory
 .Rapp.history
 
+#Ignore big files
+*.sqlite
+
+#Ignore mac file
+.DS_Store
+
 # Session Data files
 .RData
 
