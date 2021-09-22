@@ -1,5 +1,7 @@
 # PDSportal
 
+[![DOI](https://zenodo.org/badge/406354372.svg)](https://zenodo.org/badge/latestdoi/406354372)
+
 ## Overview
 
 Drug side effects in children were mined from openFDA, the publicly available repository of the FDA. This is the first resource of 460,837 adverse drug events (ADEs) with estimated risk across child development stages. 
@@ -14,7 +16,7 @@ The goal of the Pediatric Drug Safety portal (PDSportal) is to access our genera
 
 You can download this (unzip first) and place it in the data/ folder to use the app locally:
 
-https://pds-database.s3.amazonaws.com/effect_peds_19q2_v0.1_20210831.sqlite.gz
+https://pds-database.s3.amazonaws.com/effect_peds_19q2_v0.2_20210920.sqlite.gz
 
 ## Associated publications
 
