@@ -1044,9 +1044,17 @@ body <-
                        target='_blank', 
                        h3('MySQL dump v0.1')
                 ),
+                tags$a(href='https://pds-database.s3.amazonaws.com/effect_peds_19q2_v0.2_20210920.sql.gz', 
+                       target='_blank', 
+                       h3('MySQL dump v0.2')
+                ),
                 tags$a(href='https://pds-database.s3.amazonaws.com/effect_peds_19q2_v0.1_20210831.sqlite.gz', 
                        target='_blank', 
                        h3('SQLite database v0.1')
+                ),
+                tags$a(href='https://pds-database.s3.amazonaws.com/effect_peds_19q2_v0.2_20210920.sqlite.gz', 
+                       target='_blank', 
+                       h3('SQLite database v0.2')
                 ),
                 h3("Select zipped CSV files:"),
                 tags$a(href='https://pds-database.s3.amazonaws.com/database_generation_er_tables/dictionary.csv.gz', 
