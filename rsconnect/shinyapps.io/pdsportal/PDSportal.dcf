@@ -1,0 +1,14 @@
+name: PDSportal
+title: PDSportal
+username:
+account: pdsportal
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 4614870
+bundleId: 5281952
+url: https://pdsportal.shinyapps.io/pdsportal/
+when: 1637614251.23009
+lastSyncTime: 1637614251.2301
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: data/.DS_Store

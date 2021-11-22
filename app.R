@@ -12,7 +12,7 @@ library(shinyjs)
 
 con <- dbPool(
     drv = RSQLite::SQLite(),
-    dbname = "data/effect_peds_19q2_v0.1_20210831.sqlite"
+    dbname = "data/effect_peds_19q2_v0.3_20211119.sqlite"
 )
 onStop(function() poolClose(con))
 

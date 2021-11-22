@@ -16,7 +16,7 @@ The goal of the Pediatric Drug Safety portal (PDSportal) is to access our genera
 
 You can download this (unzip first) and place it in the data/ folder to use the app locally:
 
-https://pds-database.s3.amazonaws.com/effect_peds_19q2_v0.2_20210920.sqlite.gz
+https://pds-database.s3.amazonaws.com/effect_peds_19q2_v0.3_20211119.sqlite.gz
 
 ## Associated publications
 
