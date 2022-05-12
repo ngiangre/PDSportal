@@ -1040,42 +1040,54 @@ body <-
             "Download data",
             width=NULL,
             div(id="dump-div",
-                tags$a(href='https://pds-database.s3.amazonaws.com/effect_peds_19q2_v0.1_20210831.sql.gz', 
+                tags$a(href='https://tlab-kidsides.s3.amazonaws.com/data/effect_peds_19q2_v0.1_20210831.sql.gz', 
                        target='_blank', 
                        h3('MySQL dump v0.1')
                 ),
-                tags$a(href='https://pds-database.s3.amazonaws.com/effect_peds_19q2_v0.2_20210920.sql.gz', 
+                tags$a(href='https://tlab-kidsides.s3.amazonaws.com/data/effect_peds_19q2_v0.2_20210920.sql.gz', 
                        target='_blank', 
                        h3('MySQL dump v0.2')
                 ),
-                tags$a(href='https://pds-database.s3.amazonaws.com/effect_peds_19q2_v0.1_20210831.sqlite.gz', 
+                tags$a(href='https://tlab-kidsides.s3.amazonaws.com/data/effect_peds_19q2_v0.3_20211119.sql.gz', 
+                       target='_blank', 
+                       h3('MySQL dump v0.3')
+                ),
+                tags$a(href='https://tlab-kidsides.s3.amazonaws.com/data/effect_peds_19q2_v0.1_20210831.sqlite.gz', 
                        target='_blank', 
                        h3('SQLite database v0.1')
                 ),
-                tags$a(href='https://pds-database.s3.amazonaws.com/effect_peds_19q2_v0.2_20210920.sqlite.gz', 
+                tags$a(href='https://tlab-kidsides.s3.amazonaws.com/data/effect_peds_19q2_v0.2_20210920.sqlite.gz', 
                        target='_blank', 
                        h3('SQLite database v0.2')
                 ),
+                tags$a(href='https://tlab-kidsides.s3.amazonaws.com/data/effect_peds_19q2_v0.3_20211119.sqlite.gz', 
+                       target='_blank', 
+                       h3('SQLite database v0.3')
+                ),
                 h3("Select zipped CSV files:"),
-                tags$a(href='https://pds-database.s3.amazonaws.com/database_generation_er_tables/dictionary.csv.gz', 
+                tags$a(href='https://tlab-kidsides.s3.amazonaws.com/data/dictionary.csv.gz', 
                        target='_blank', 
                        h5('Dictionary table (Descriptions of all fields from the 19 tables in the database)')
                 ),
-                tags$a(href='https://pds-database.s3.amazonaws.com/database_generation_er_tables/ade_raw.csv.gz', 
+                tags$a(href='https://tlab-kidsides.s3.amazonaws.com/data/ade_raw.csv.gz', 
                        target='_blank', 
                        h5('Pediatric FAERS')
                 ),
-                tags$a(href='https://pds-database.s3.amazonaws.com/database_generation_er_tables/ade_nichd.csv.gz', 
+                tags$a(href='https://tlab-kidsides.s3.amazonaws.com/ade_nichd.csv.gz', 
                        target='_blank', 
                        h5('All 460,837 ADE risk estimates')
                 ),
-                tags$a(href='https://pds-database.s3.amazonaws.com/database_generation_er_tables/drug.csv.gz', 
+                tags$a(href='https://tlab-kidsides.s3.amazonaws.com/data/drug.csv.gz', 
                        target='_blank', 
                        h5('Drug vocabulary')
                 ),
-                tags$a(href='https://pds-database.s3.amazonaws.com/database_generation_er_tables/event.csv.gz', 
+                tags$a(href='https://tlab-kidsides.s3.amazonaws.com/data/event.csv.gz', 
                        target='_blank', 
                        h5('Adverse event vocabulary')
+                ),
+                tags$a(href='https://nsides.io', 
+                       target='_blank', 
+                       h3('Database updates can be found at nsides.io')
                 )
             )
           )
